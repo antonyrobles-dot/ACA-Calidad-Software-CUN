@@ -1,0 +1,72 @@
+{
+  "entorno": "CPython; adaptador IoEClient simulado, sin Packet Tracer",
+  "sha256": "6d22c005477ccd280779ba8f72f70c0da579effb3bfdfe7e2cfcce0ade6f8274",
+  "casos": [
+    {
+      "id": "F01",
+      "tipo": "Funcional",
+      "estado": "APROBADO",
+      "detalle": "T=[29,26,25]; AC=[1, 1, 0]"
+    },
+    {
+      "id": "F02",
+      "tipo": "Funcional",
+      "estado": "APROBADO",
+      "detalle": "Manual AC=1, ventana=1 -> orden AC=0, ventana=1"
+    },
+    {
+      "id": "S01",
+      "tipo": "Seguridad: validacion de entradas",
+      "estado": "APROBADO",
+      "detalle": "6/6 valores invalidos rechazados; AC permanece apagado"
+    },
+    {
+      "id": "S02",
+      "tipo": "Seguridad: estados de solo lectura",
+      "estado": "APROBADO",
+      "detalle": "Escrituras de OrdenAC/OrdenBloqueo ignoradas; salidas siguen AC=0, bloqueo=1"
+    }
+  ],
+  "mutantes": [
+    {
+      "id": "M01",
+      "detectado": true,
+      "casos_detectores": [
+        "F01"
+      ]
+    },
+    {
+      "id": "M02",
+      "detectado": true,
+      "casos_detectores": [
+        "F02"
+      ]
+    }
+  ],
+  "metricas": [
+    {
+      "nombre": "Efectividad funcional de la bateria",
+      "formula": "casos funcionales aprobados / ejecutados * 100",
+      "numerador": 2,
+      "denominador": 2,
+      "unidad": "%",
+      "resultado": 100.0
+    },
+    {
+      "nombre": "Rechazo de entradas invalidas en muestra",
+      "formula": "payloads rechazados / payloads invalidos * 100",
+      "numerador": 6,
+      "denominador": 6,
+      "unidad": "%",
+      "resultado": 100.0
+    },
+    {
+      "nombre": "Deteccion de mutaciones seleccionadas",
+      "formula": "mutantes detectados / mutantes creados * 100",
+      "numerador": 2,
+      "denominador": 2,
+      "unidad": "%",
+      "resultado": 100.0
+    }
+  ]
+}
