@@ -1,10 +1,22 @@
-# Cierre del ACA de Calidad
+# Cierre del ACA de Calidad del Software
 
-1. Revisar la consigna: dos tipos de prueba, tres métricas, informe APA, repositorio y video pitch máximo cinco minutos. Requiere grupo de tres a cinco o excepción autorizada.
-2. Mantener controlador_pt.py, evaluar.py y resultados.json juntos. Ejecutar `python evaluar.py` en un entorno Python del computador. Esta orden usa solo módulos estándar y genera los resultados del laboratorio; no necesita Packet Tracer.
-3. Comparar el SHA-256 generado con el del informe. Si cambia el código evaluado, volver a medir y actualizar el informe antes de entregarlo.
-4. Mostrar en la grabación F01/F02, S01/S02, los dos mutantes detectados y la diferencia entre lógica local y simulador. No representar los dobles de prueba como una red funcionando.
-5. Añadir al informe únicamente los nombres, roles y aportes de un equipo real. Incorporar los enlaces reales de repositorio/video cuando estén disponibles y comprobados. El repositorio de GitHub se conserva privado por autorización del estudiante; queda pendiente definir acceso del evaluador.
-6. Revisar redacción, referencias y formato académico final; solicitar aprobación antes de subir el trabajo.
+## Estado comprobado
 
-Secuencia de pitch preparada: objetivo y sistema (40 s), funcionales (70 s), seguridad de entradas (70 s), métricas (70 s), riesgos y conclusiones (50 s). Total máximo propuesto: cinco minutos. Es un guion técnico, no una grabación realizada.
+- Entrega individual autorizada por el docente.
+- Repositorio público: https://github.com/antonyrobles-dot/ACA-Calidad-Software-CUN
+- Código, evaluador y resultados del laboratorio disponibles. El código original se conserva.
+- Pendiente: video personal, enlace público real e incorporación al informe antes de la aprobación final.
+- Cierre de referencia de la actividad: 8 de noviembre de 2026, 23:59, Colombia.
+- No se ha entregado definitivamente el ACA de Calidad.
+
+## Lista de entrega
+
+1. Conservar juntos controlador_pt.py, evaluar.py y resultados.json. Ejecutar `python evaluar.py` (Windows: `py evaluar.py`) desde esa carpeta, con Python 3. No requiere dependencias externas.
+2. Comprobar el SHA-256 del controlador: `6d22c005477ccd280779ba8f72f70c0da579effb3bfdfe7e2cfcce0ade6f8274`.
+3. Presentar dos tipos de prueba: funcionales F01/F02 y controles de validación S01/S02. Explicar tres métricas con fórmulas, denominadores y análisis. M01/M02 son mutaciones deliberadas en copias temporales.
+4. Grabar el pitch personal de máximo cinco minutos mostrando la ejecución real en pantalla. Seguir GUION_PITCH.md. No presentar las interfaces simuladas como dispositivos reales.
+5. Publicar el video en YouTube con visibilidad pública; abrir el enlace sin sesión y comprobar reproducción y audio.
+6. Incorporar el enlace real del video y el del repositorio al PDF; conservar presentación APA y evidencias auténticas. No inventar integrantes ni aportes.
+7. Revisar el PDF final y solicitar la aprobación del estudiante para la entrega definitiva en CDigital. Publicar el repositorio no equivale a entregar el ACA.
+
+Las métricas corresponden a esta muestra limitada en CPython. No prueban WiFi, actuadores ni ausencia de defectos. El proyecto Packet Tracer de Redes ya entregado se mantiene independiente e intacto.

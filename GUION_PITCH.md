@@ -23,10 +23,25 @@ El primer indicador es el porcentaje de casos funcionales aprobados sobre ejecut
 **Acción de grabación:** mostrar las tres fórmulas, numeradores, denominadores y resultados en resultados.json. Mostrar los dos mutantes detectados. Verificar que el SHA-256 del código original coincide con el informe.
 
 **3:30–4:35. Análisis y conclusiones.**
-Los resultados respaldan los comportamientos evaluados y muestran que los casos detectan dos defectos introducidos intencionalmente. Las limitaciones principales son el tamaño de la muestra y el uso de dobles para las interfaces del simulador. La siguiente fase es probar integración, comunicaciones y actuadores dentro de Packet Tracer. Una orden calculada no es una confirmación de que el dispositivo haya actuado. Por eso separo los resultados locales comprobados de la integración pendiente. Como mejora ampliaría las combinaciones de estados, los fallos de comunicación y la observación de actuadores.
+Los resultados respaldan los comportamientos evaluados y muestran que los casos detectan dos defectos introducidos intencionalmente. Las limitaciones principales son el tamaño de la muestra y el uso de dobles para las interfaces del simulador. Estas pruebas locales no comprueban integración, comunicaciones ni actuadores dentro de Packet Tracer. Una orden calculada no es una confirmación de que un dispositivo haya actuado. El proyecto de Redes fue comprobado por el estudiante por separado; esta medición corresponde exclusivamente a la versión de código y al laboratorio de Calidad. Como mejora ampliaría las combinaciones de estados, los fallos de comunicación y la observación de actuadores.
 
 **4:35–4:50. Cierre.**
-El repositorio y el informe deben permitir reproducir estos resultados. Se incorporarán únicamente enlaces reales y los aportes de integrantes confirmados. El trabajo requiere equipo de tres a cinco estudiantes o autorización expresa para entrega individual.
+El repositorio público permite consultar el código y reproducir los resultados. Presento el trabajo de manera individual, conforme a la autorización docente. El informe incluye los resultados, sus limitaciones y el enlace del repositorio. El enlace público de esta sustentación se incorporará después de grabarla.
 
 **Pendiente real:** grabar, revisar duración máxima de cinco minutos, publicar con autorización, comprobar acceso al video y al repositorio e incorporar sus enlaces al PDF. Este archivo es un guion; no es un video grabado.
 
+
+## Preparación de la grabación en Windows
+
+1. Descargar los archivos desde el repositorio público: Code → Download ZIP. Extraerlos juntos en una carpeta.
+2. Abrir la terminal en esa carpeta y ejecutar `py --version`. Si Python no está disponible, instalarlo con autorización del dueño del computador. No aceptar acuerdos personales en nombre de otra persona.
+3. Abrir controlador_pt.py y resultados.json en el editor. Tener las siete diapositivas preparadas como apoyo; la demostración debe mostrar la terminal real.
+4. Hacer un ensayo. Ejecutar `py evaluar.py` y localizar F01, F02, S01, S02 y los mutantes M01 y M02. Usar el resultado real; si aparece un error, corregirlo antes de grabar.
+5. Grabar la pantalla con narración propia usando el grabador disponible. Ocultar correo, notificaciones y otros datos personales. Mostrar la ejecución durante la toma.
+6. Seguir el guion de 4:50; comprobar que el archivo completo no supere cinco minutos, se escuche y permita leer los resultados.
+7. Subir la grabación a YouTube desde la cuenta del estudiante con visibilidad Pública, conforme a la indicación docente. Evitar datos privados en título o descripción.
+8. Copiar el enlace real, comprobar reproducción sin sesión y añadirlo al PDF y al README. No colocar un enlace de ejemplo ni declarar el video publicado antes de verificarlo.
+
+## Límites de las afirmaciones
+
+No atribuir estas pruebas a una red WiFi real. El evaluador utiliza dobles de laboratorio. No volver a construir ni modificar el proyecto de Redes para este pitch. No grabar ni firmar en nombre del estudiante. La grabación personal y la comprobación de su enlace siguen pendientes.

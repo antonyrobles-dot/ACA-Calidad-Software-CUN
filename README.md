@@ -19,4 +19,12 @@ Se requieren Python 3 y permisos de escritura en la carpeta. No requiere instala
 
 Las tres métricas usan denominadores explícitos: 2 casos funcionales, 6 entradas inválidas y 2 mutantes seleccionados. Los porcentajes no miden toda la seguridad, cobertura ni confiabilidad del sistema.
 
-El adaptador IoEClient es un doble de laboratorio. Ningún resultado prueba funcionamiento de WiFi o dispositivos de Packet Tracer. El guion de pitch está preparado; el video no está grabado. Repositorio privado: https://github.com/antonyrobles-dot/ACA-Calidad-Software-CUN . Su consulta requiere permiso explícito; el enlace por sí solo no da acceso al profesor. No se cambia la visibilidad ni se invitan colaboradores sin autorización. Esta carpeta contiene únicamente materiales técnicos sin datos personales sensibles.
+El adaptador IoEClient es un doble de laboratorio. Ningún resultado demuestra funcionamiento de WiFi ni de dispositivos de Packet Tracer; el proyecto de Redes es un entregable independiente.
+
+## Acceso y estado de entrega
+
+Repositorio público verificado: https://github.com/antonyrobles-dot/ACA-Calidad-Software-CUN . La entrega individual fue autorizada por el docente. La publicación del repositorio y del pitch fue indicada por el profesor.
+
+El video personal todavía está pendiente de grabación. Debe durar como máximo cinco minutos, mostrar la ejecución real del evaluador y publicarse en YouTube con acceso público. Cuando exista, su enlace real se incorporará al informe y a este README. No se ha realizado la entrega definitiva del ACA de Calidad.
+
+Consultar GUION_PITCH.md y README_ENTREGA.md. Esta carpeta contiene exclusivamente materiales técnicos, sin credenciales ni documentación administrativa personal.
